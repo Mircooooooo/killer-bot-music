@@ -3,7 +3,7 @@ const client = new Discord.Client({
     intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_VOICE_STATES"] //Aggiungere GUILD_VOICE_STATES
 })
 
-client.login("OTUyMjcxNDY2ODkwNjcwMDkx.Yizl6g.Kt4mOstbeXEQE4swT6xSBokdOdQ");
+client.login(process.env.token);
 
 client.on("ready", () => {
     console.log("ONLINE");
