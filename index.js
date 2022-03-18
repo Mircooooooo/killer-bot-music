@@ -11,8 +11,6 @@ client.on("ready", () => {
 
 const { DisTube } = require("distube")
 //Plugin facoltativi
-const { SpotifyPlugin } = require("@distube/spotify")
-const { SoundCloudPlugin } = require("@distube/soundcloud")
 
 const distube = new DisTube(client, {
     youtubeDL: false,
